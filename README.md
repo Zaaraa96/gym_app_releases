@@ -23,22 +23,7 @@ Point the app at that URL (`RELEASE_CONFIG_URL` in `lib/app/release_gate_bootstr
 
 ## Publishing an Android APK here
 
-The layout repo’s `GITHUB_TOKEN` cannot upload to this repo. Add a fine-grained personal access token with **Contents: Read and write** on `Zaaraa96/gym_app_releases`, and store it on `gym_app_layout` as `RELEASES_REPO_TOKEN`.
-
-In `.github/workflows/cd.yml`, publish the built APK to this repo instead of `gym_app_layout`:
-
-```yaml
-- name: Create GitHub Release
-  if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/')
-  env:
-    GH_TOKEN: ${{ secrets.RELEASES_REPO_TOKEN }}
-  run: |
-    gh release create "${{ github.ref_name }}" \
-      --repo Zaaraa96/gym_app_releases \
-      --title "${{ github.ref_name }}" \
-      --notes "$notes" \
-      "dist/gym_app-${APP_VERSION}.apk"
-```
+`gym_app_layout` `.github/workflows/cd.yml` publishes the APK here with the `GYM_APP_RELEASE_TOKEN` secret. That token needs **Contents: Read and write** on `Zaaraa96/gym_app_releases`. The layout repo’s `GITHUB_TOKEN` cannot write to this repo.
 
 After that release exists, commit an updated `config/release.json` on `main`:
 
