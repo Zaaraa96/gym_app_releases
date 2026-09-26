@@ -2,7 +2,7 @@
 
 Release config and install assets for the gym app.
 
-`config/release.json` is what the app fetches on splash. The current Android APK still lives on the `gym_app_layout` GitHub Release (`version-1.4.0+6`). New APKs belong on this repo.
+`config/release.json` is what the app fetches on splash. The current Android APK is the `version-1.3.0+6` release on this repo.
 
 ## What the app reads
 
