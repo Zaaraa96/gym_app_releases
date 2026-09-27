@@ -1,16 +1,16 @@
 {
   "minBuild": 5,
-  "latestBuild": 8,
-  "androidUrl": "https://github.com/Zaaraa96/gym_app_releases/releases/download/version-1.5.0%2B8/gym_app-1.5.0%2B8.apk",
+  "latestBuild": 9,
+  "androidUrl": "https://github.com/Zaaraa96/gym_app_releases/releases/download/version-1.6.0%2B9/gym_app-1.6.0%2B9.apk",
   "iosUrl": "",
   "optionalMessage": "Bug fixes and small improvements.",
   "forceMessage": "Please update to continue.",
   "optionalMessageByLocale": {
     "en": "Bug fixes and small improvements.",
-    "fa": "رفع اشکال و بهبودهای کوچک."
+    "fa": "\u0631\u0641\u0639 \u0627\u0634\u06a9\u0627\u0644 \u0648 \u0628\u0647\u0628\u0648\u062f\u0647\u0627\u06cc \u06a9\u0648\u0686\u06a9."
   },
   "forceMessageByLocale": {
     "en": "Please update to continue.",
-    "fa": "برای ادامه لطفاً به‌روزرسانی کنید."
+    "fa": "\u0628\u0631\u0627\u06cc \u0627\u062f\u0627\u0645\u0647 \u0644\u0637\u0641\u0627\u064b \u0628\u0647\u200c\u0631\u0648\u0632\u0631\u0633\u0627\u0646\u06cc \u06a9\u0646\u06cc\u062f."
   }
 }
