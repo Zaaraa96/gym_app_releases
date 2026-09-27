@@ -4,5 +4,13 @@
   "androidUrl": "https://github.com/Zaaraa96/gym_app_releases/releases/download/version-1.5.0%2B8/gym_app-1.5.0%2B8.apk",
   "iosUrl": "",
   "optionalMessage": "Bug fixes and small improvements.",
-  "forceMessage": "Please update to continue."
+  "forceMessage": "Please update to continue.",
+  "optionalMessageByLocale": {
+    "en": "Bug fixes and small improvements.",
+    "fa": "رفع اشکال و بهبودهای کوچک."
+  },
+  "forceMessageByLocale": {
+    "en": "Please update to continue.",
+    "fa": "برای ادامه لطفاً به‌روزرسانی کنید."
+  }
 }
