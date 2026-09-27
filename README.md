@@ -20,6 +20,8 @@ Point the app at that URL (`RELEASE_CONFIG_URL` in `lib/app/release_gate_bootstr
 | `iosUrl` | App Store or TestFlight link. Empty until iOS ships |
 | `optionalMessage` | Copy on the optional update sheet |
 | `forceMessage` | Copy on the blocking update sheet |
+| `optionalMessageByLocale` | Optional body by language (`en` / `fa`) |
+| `forceMessageByLocale` | Force body by language (`en` / `fa`) |
 
 ## Publishing an Android APK here
 
