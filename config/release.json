@@ -1,7 +1,7 @@
 {
   "minBuild": 5,
-  "latestBuild": 12,
-  "androidUrl": "https://github.com/Zaaraa96/gym_app_releases/releases/download/version-1.8.1%2B12/cuelift-1.8.1%2B12-arm64-v8a.apk",
+  "latestBuild": 13,
+  "androidUrl": "https://github.com/Zaaraa96/gym_app_releases/releases/download/version-1.8.2%2B13/cuelift-1.8.2%2B13-arm64-v8a.apk",
   "iosUrl": "",
   "optionalMessage": "Bug fixes and small improvements.",
   "forceMessage": "Please update to continue.",
@@ -14,8 +14,8 @@
     "fa": "\u0628\u0631\u0627\u06cc \u0627\u062f\u0627\u0645\u0647 \u0644\u0637\u0641\u0627\u064b \u0628\u0647\u200c\u0631\u0648\u0632\u0631\u0633\u0627\u0646\u06cc \u06a9\u0646\u06cc\u062f."
   },
   "androidUrlByAbi": {
-    "armeabi-v7a": "https://github.com/Zaaraa96/gym_app_releases/releases/download/version-1.8.1%2B12/cuelift-1.8.1%2B12-armeabi-v7a.apk",
-    "arm64-v8a": "https://github.com/Zaaraa96/gym_app_releases/releases/download/version-1.8.1%2B12/cuelift-1.8.1%2B12-arm64-v8a.apk",
-    "x86_64": "https://github.com/Zaaraa96/gym_app_releases/releases/download/version-1.8.1%2B12/cuelift-1.8.1%2B12-x86_64.apk"
+    "armeabi-v7a": "https://github.com/Zaaraa96/gym_app_releases/releases/download/version-1.8.2%2B13/cuelift-1.8.2%2B13-armeabi-v7a.apk",
+    "arm64-v8a": "https://github.com/Zaaraa96/gym_app_releases/releases/download/version-1.8.2%2B13/cuelift-1.8.2%2B13-arm64-v8a.apk",
+    "x86_64": "https://github.com/Zaaraa96/gym_app_releases/releases/download/version-1.8.2%2B13/cuelift-1.8.2%2B13-x86_64.apk"
   }
 }
