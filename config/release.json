@@ -1,6 +1,6 @@
 {
   "minBuild": 5,
-  "latestBuild": 14,
+  "latestBuild": 13,
   "androidUrl": "https://github.com/Zaaraa96/gym_app_releases/releases/download/version-1.8.2%2B13/cuelift-1.8.2%2B13-arm64-v8a.apk",
   "iosUrl": "",
   "optionalMessage": "Bug fixes and small improvements.",
