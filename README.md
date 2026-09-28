@@ -16,7 +16,8 @@ Point the app at that URL (`RELEASE_CONFIG_URL` in `lib/app/release_gate_bootstr
 | --- | --- |
 | `minBuild` | Builds below this are forced to update |
 | `latestBuild` | Newest published build. Higher than the installed build is an optional update |
-| `androidUrl` | Direct download for the Android APK |
+| `androidUrl` | Download for builds that do not choose an ABI. The arm64-v8a CueLift APK |
+| `androidUrlByAbi` | Split APK URLs by ABI: `armeabi-v7a`, `arm64-v8a`, `x86_64`. The app uses the device ABI and falls back to `androidUrl` |
 | `iosUrl` | App Store or TestFlight link. Empty until iOS ships |
 | `optionalMessage` | Copy on the optional update sheet |
 | `forceMessage` | Copy on the blocking update sheet |
@@ -30,9 +31,10 @@ Point the app at that URL (`RELEASE_CONFIG_URL` in `lib/app/release_gate_bootstr
 After that release exists, commit an updated `config/release.json` on `main`:
 
 - set `latestBuild` to the pubspec build number
-- set `androidUrl` to  
-  `https://github.com/Zaaraa96/gym_app_releases/releases/download/<tag>/gym_app-<version>.apk`  
+- set `androidUrl` to the arm64-v8a asset  
+  `https://github.com/Zaaraa96/gym_app_releases/releases/download/<tag>/cuelift-<version>-arm64-v8a.apk`  
   (`+` in the tag and filename must be `%2B`)
-- raise `minBuild` only when older builds must stop working
+- set `androidUrlByAbi` to that same pattern for `armeabi-v7a`, `arm64-v8a`, and `x86_64`
+- raise `minBuild` only when older builds must stop working. Leave it unchanged when the only difference is the CueLift per-ABI filenames
 
 Do not commit the APK into git. GitHub Release assets on this repo are the download.
