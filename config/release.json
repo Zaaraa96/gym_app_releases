@@ -1,7 +1,7 @@
 {
   "minBuild": 5,
-  "latestBuild": 9,
-  "androidUrl": "https://github.com/Zaaraa96/gym_app_releases/releases/download/version-1.6.0%2B9/gym_app-1.6.0%2B9.apk",
+  "latestBuild": 10,
+  "androidUrl": "https://github.com/Zaaraa96/gym_app_releases/releases/download/version-1.7.0%2B10/cuelift-1.7.0%2B10.apk",
   "iosUrl": "",
   "optionalMessage": "Bug fixes and small improvements.",
   "forceMessage": "Please update to continue.",
